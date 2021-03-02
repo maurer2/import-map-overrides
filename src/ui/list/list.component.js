@@ -212,7 +212,7 @@ export default class List extends Component {
                 key={mod.moduleName}
               >
                 <td>
-                  <div className="imo-status imo-next-override" />
+                  <div className="imo-status imo-status-has-icon imo-next-override" />
                   <div>Inline Override</div>
                   <div className="imo-needs-refresh" />
                 </td>
@@ -229,7 +229,7 @@ export default class List extends Component {
                 key={mod.moduleName}
               >
                 <td style={{ position: "relative" }}>
-                  <div className="imo-status imo-next-default" />
+                  <div className="imo-status imo-status-has-icon imo-next-default" />
                   <div>Default</div>
                   <div className="imo-needs-refresh" />
                 </td>

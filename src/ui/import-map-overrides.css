@@ -131,17 +131,15 @@ imo-popup a {
 .imo-overrides-table tr td:first-child {
   display: flex;
   align-items: center;
-  padding-right: 32px;
+  padding-right: 40px;
   position: relative;
 }
 
 .imo-needs-refresh {
   position: absolute;
   right: 8px;
+  height: 24px;
   font-size: 32px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .imo-needs-refresh::before {
@@ -153,6 +151,10 @@ imo-popup a {
   width: 16px;
   border-radius: 8px;
   border: 1px solid white;
+  margin-right: 8px;
+}
+
+.imo-status-has-icon + div {
   margin-right: 8px;
 }
 
