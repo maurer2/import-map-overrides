@@ -131,7 +131,7 @@ imo-popup a {
 .imo-overrides-table tr td:first-child {
   display: flex;
   align-items: center;
-  padding-right: 40px;
+  padding-right: 38px;
   position: relative;
 }
 
@@ -139,6 +139,7 @@ imo-popup a {
   position: absolute;
   right: 8px;
   height: 24px;
+  width: 30px;
   font-size: 32px;
 }
 
